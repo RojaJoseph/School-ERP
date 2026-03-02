@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.db
+*.sqlite3
+
+# Node
+node_modules/
+.next/
+*.log
+dist/
+.turbo/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Uploads (keep structure, not files)
+backend/uploads/students/*
+backend/uploads/assignments/*
+backend/uploads/documents/*
+!backend/uploads/students/.gitkeep
+!backend/uploads/assignments/.gitkeep
+!backend/uploads/documents/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+postgres_data/
